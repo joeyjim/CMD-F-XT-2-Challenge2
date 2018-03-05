@@ -4,6 +4,14 @@ body {
     margin: 0;
     box-sizing: border-box;
     text-align: center;
+
+    background-image: url(../images/Mars.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+
+    padding: 0; /* reset */
 }
 
 .container > div {
