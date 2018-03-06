@@ -30,3 +30,17 @@ function showtime() {// We create a new Date object and assign it to a variable 
    showtime();
 
 
+var moon = document.getElementById('moon');
+var sun = document.getElementById('sun');
+
+var tl1 = new TimelineMax({repeat:-1});
+tl1.to(moon, 2, {top: 250, ease: Sine.easeInOut})
+   .to(moon, 2, {left: 500, ease: Sine.easeInOut}, '-=0.25')
+   .to(moon, 2, {top: 8, ease: Sine.easeInOut}, '-=0.25')
+   .to(moon, 2, {left: 8, ease: Sine.easeInOut}, '-=0.25');
+
+var tl2 = new TimelineMax({repeat:-1});
+tl2.to(sun, 2, {bottom: 250, ease: Sine.easeInOut})
+   .to(sun, 2, {right: 500, ease: Sine.easeInOut}, '-=0.25')
+   .to(sun, 2, {bottom: 8, ease: Sine.easeInOut}, '-=0.25')
+   .to(sun, 2, {right: 8, ease: Sine.easeInOut}, '-=0.25');

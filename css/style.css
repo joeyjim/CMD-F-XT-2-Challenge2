@@ -25,7 +25,12 @@ body {
 }
 
 .space{
+    height: 60vh;    
+}
 
+.moon, .sun, .mars{
+    position: relative;
+    
 }
 
 
