@@ -24,9 +24,12 @@ span {
         margin-bottom: 0;
     }
 
-    .moon, .mars, .sun{
-        width: 100px;
-        height: 100px;
+    .space, .ufos{
+        width: 100%;
+    }
+
+    .moon, .mars, .sun, .ufo{
+       width: 25%;
     }
 
 .container{
@@ -37,6 +40,11 @@ span {
     grid-row-gap: 15px;
     padding: 15px;
 }
+
+.space{
+ 
+        margin-top: 70px;
+    }
 
 @media only screen and (min-width: 768px) {
     /* For tablets: */
@@ -49,10 +57,8 @@ span {
        font-size: 15px; 
         margin-bottom: 0;
     }
-    
-    .moon, .mars, .sun{
-        width: 150px;
-        height: 150px;
+    .moon, .mars, .sun, .ufo{
+       width: 15%;
     }
 }
 
@@ -75,11 +81,12 @@ span {
         margin-bottom: 0;
     }
     
-    
-    .moon, .mars, .sun{
-        width: 250px;
-        height: 250px;
+    .space{
+/*        height: 60vh;    */
+        margin-top: 200px;
     }
     
-
+        .moon, .mars, .sun, .ufo{
+       width: 10%;
+    }
 }

@@ -12,6 +12,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .container > div:nth-child(1) {
@@ -24,13 +25,15 @@ body {
     text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
 }
 
-.space{
-    height: 60vh;    
-}
-
 .moon, .sun, .mars{
     position: relative;
     
+}
+
+.ufo{
+    position: absolute;
+    left: 20%;
+    top:70%;
 }
 
 
